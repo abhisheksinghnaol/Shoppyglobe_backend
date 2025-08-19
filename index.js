@@ -6,7 +6,7 @@ import { cartRoutes } from "./routes/cart.routes.js";
 
 const app=express()
 
-mongoose.connect("mongodb+srv://abhisheksinghnaol:3GZ0uir8KQCGoxop@cluster0.vakkkua.mongodb.net/")
+mongoose.connect("mongodb+srv://abhisheksinghnaol:3GZ0uir8KQCGoxop@cluster0.vakkkua.mongodb.net/ShoppyGlobe?retryWrites=true&w=majority")
 .then(()=>{
     console.log("DB connected sucessfully");
     
